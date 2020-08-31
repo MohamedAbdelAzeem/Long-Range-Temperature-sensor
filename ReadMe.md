@@ -1,6 +1,15 @@
 # Temperature Sensor (Thermocouple):
+Using Proteus simulator, it is required to build a signal conditioning circuit that monitors oven temperature using a digital microcontroller. The microcontroller should take readings every second, it should display current temperature, average temperature at the last minute, an alarm if the signal exceeds the limits of 350 Celsius degrees. You should consider the following:
+- The signal is carried to the control room using a long wire of 100 m.
+- A noise signal of 60 KHz is applied directly to the sensor circuit.
+- Oven temperature may vary between 100 and 350.
+- It is required to have an additional non-digital alarm circuit that gives an alarm if temperature exceeds 350 degree or turned off when temperature goes below 340 degree.
 
-# Complete Circuit Design:
+
+
+
+
+## Complete Circuit Design:
 
 ![image info](./images/image10.png)
 
